@@ -174,3 +174,5 @@ footer {
   .about { grid-template-columns: 1fr; gap: 35px; }
   footer { flex-direction: column; gap: 10px; }
 }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; } }
